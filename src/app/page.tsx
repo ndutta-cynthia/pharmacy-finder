@@ -312,7 +312,7 @@ import { Loader } from 'lucide-react';
 
 declare global {
   interface Window {
-    google: typeof google;
+    google: any;
     initMap: () => void;
     promptDirections: (placeId: string, placeName: string) => void;
   }
